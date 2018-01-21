@@ -1,23 +1,15 @@
 /*:
  # Question 3
  
- You are working to develop your leadership skills at Lakefield and come up with a series of challenges that you will encourage students to complete.
+ Create a variable called `piggyBank` that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your piggy bank.
  
- A generous group of LCS alumni have voluteered to donate money to the Canadian Cancer Society charity based on how many students complete each challenge.
+ - Your neighbor gives you 10 dollars for mowing her lawn
+ - You earn 20 more dollars throughout the week doing odd jobs
+ - You spend half your money on dinner and a movie
+ - You triple what's left in your piggy bank by washing windows
+ - You spend 3 dollars at a convenience store
  
- ![ccs](logo_ccs_society.png "Canadian Cancer Society")
- 
- For every student that volunteers to shave their head to help with the creation of wigs, the donors will contribute $55.75. Create a constant called `hairDonationAmount` with an appropriate data type and initialize it according to the amount of the donation.
- 
- For every student that completes a Terry Fox Run training session of at least 60 minutes, the donors will contribute $15.35. Create a constant called `runTrainingDonationAmount` with an appropriate data type and initialize it according to the amount of the donation.
- 
- So far 12 students have shaved their head to donate hair. Create a variable called `headShavedCount` with an appropriate data type to track the count of students who have so far chosen to shave their head.
-
- So far 73 students have completed a 60-minute Terry Fox Run training session. Create a variable called `runTrainingCount` with an appropriate data type to track the count of students who have completed a training session.
- 
- Now, create a variable called `totalDonationAmount` and initialize using a single expression, with appropriate operators, to calculate the current total dollar amount that will be donated to the Canadian Cancer Society.
-
- Finally, for each variable and constant, explain why you used a given data type. Use `print()` statements to do this.
+ Print the balance of your piggy bank after each step.
  
  */
 // Answer question 3 below
