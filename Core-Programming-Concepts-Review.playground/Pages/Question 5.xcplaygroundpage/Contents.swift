@@ -1,4 +1,5 @@
 /*:
+ [Previous](@previous)
  # Question 5
  
  Imagine you're trying to decide whether or not to go on a walk.

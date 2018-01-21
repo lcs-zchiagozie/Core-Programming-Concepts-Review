@@ -1,4 +1,5 @@
 /*:
+ [Previous](@previous)
  # Question 1
 
  The following code describes a quadratic function:
