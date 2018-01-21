@@ -1,18 +1,25 @@
 /*:
  # Question 5
  
- Imagine that you are trying to write an app that identifies an independent school based on a series of questions.
+ Imagine you're trying to decide whether or not to go on a walk.
  
- The questions will be answered for you with either `true` or `false` and no other possible response.
+ You decide that you'll go on a walk if it's not raining **or** if it's more than 20C and sunny out.
  
- Three constants have been created below with certain values.
+ **First**, create a constant `isNiceWeather` that is equal to an expression that evaluates to a boolean indicating whether or not the weather is nice enough for you to go for a walk.
  
- Write an `if` statement that prints "Must be Lakefield!" when the values of the constants would seem to suggest the school is Lakefield, or otherwise prints "Hmm, need more data to be sure."
+ **Second**, write an if statement that will print "I'm going for a walk!" if the weather is nice or "I'll stay inside today." if the weather is not suitable for a walk.
  
+ - note: There are two situations here to consider.
+    1. Going for a walk if it's not raining out.
+    2. Going for a walk if it's more than 20C and sunny out.
+ 
+    Make sure your code reports you going for a walk for both conditions!
+ 
+    You'll need to adjust the value of the constants immedidately below to test your code thoroughly.
  */
-let hasWaterfrontOnLake = true
-let hasBoysAndGirlsAttending = false
-let hasGreenAndWhiteBuildings = true
+let temperatureInCelsius = 15
+let isRaining = true
+let isSunny = true
 
 // Answer question 5 below
 
