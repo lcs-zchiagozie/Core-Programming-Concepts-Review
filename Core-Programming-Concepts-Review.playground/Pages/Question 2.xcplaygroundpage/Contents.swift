@@ -1,20 +1,16 @@
 /*:
  # Question 2
  
- Fascinated by the snowfall at Lakefield College School, you resolve to write an augmented-reality app that will use a phone's camera, and time-lapse photography, to track snowfall amounts for each day.
+ Imagine you're creating the ultimate competitor to GitHub.
  
- ![snowfallatlcs](snowfallatlcs.png "Having fun with snow at LCS")
+ You want to keep track of the following metrics for each repository:
  
- The following pieces of information will be tracked each hour:
- 
- * date of this measurement
- * time of this measurement
- * current height of snow outside window in centimetres
- 
- Additionally, the app will keep track of, overall:
- 
- * total snowfall over entire year so far
- 
+ - Number of commits: the total number of commits to the repository
+ - Number of forks: the number of forks people have made from the repository
+ - Year created: The year the repository was created
+ - Month created: The month the repository was created represented by a number between 1 and 12
+ - Day created: The day of the month the repository was created
+
  For each piece of information above, create a variable or constant (whatever is more appropriate).
  
  Then, use `print()` statements to briefly explain why you chose to use a variable or a constant for each piece of information above.
