@@ -1,23 +1,21 @@
 /*:
  # Question 6
 
- Imagine that you are writing an automatic coaching app that gives feedback based on how much a person has run in a day compared to their goal.
+ Write an `if-else if-else` statement that will print different statements based on what range `currentHeartRate` falls into.
  
- Create a constant called `targetDistance` of type `Double`.
+ Below is a list of ranges and the associated statements
  
- Create a variable called `currentDistanceRun` of type `Double`.
+ - 100-120: "You are in the Very Light zone. Activity in this zone helps with recovery."
+ - 121-140: "You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning."
+ - 141-160: "You are in the Moderate zone. Activity in this zone helps improve aerobic fitness."
+ - 161-180: "You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions."
+ - 181-200: "You are in the Maximum zone. Activity in this zone helps fit athletes develop speed."
  
- Write a **single** `if-else-if-else` statement (you may use multiple `else if` branches) that provides feedback according to the following specifications:
- 
- * when the person has run less than 15% of their target distance, print "Great start, keep it up!"
- * when the person has run between 45% and up to **but not including** 50% of their target distance, print "You're almost at halfway!"
- * when the person has run exactly half their target distance, print "Halfway there!"
- * when the person has run more than 88% of their target distance but **not** the entire target distance, print "Nearly done!"
- * when the person has run their entire target distance, print "GREAT JOB! You're finished the run."
-
- **NOTE**: You need to select values for `targetDistance` and `currentDistanceRun`. You may wish to adjust these values a few times to test different branches of your `if` statement.
- 
+ If `currentHeartRate` is above the listed zones, print some kind of warning asking the user to slow down.
  */
+
+let currentHeartRate = 128
+
 // Answer question 6 below
 
 
