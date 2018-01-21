@@ -1,31 +1,21 @@
 /*:
  # Question 4
  
- Bored over the holiday, wishing you could just be back in Gordon's Computer Science class, you and your friend invent a game called "YouTube Mashup".
+ Imagine you are creating an app to track food usage in the LCS Dining Hall to help reduce food waste.
  
- You each choose a video on YouTube. You play 10 seconds of your video, then your friend plays 10 seconds of their video.
+ The kitchen staff and TOD will use your app to track the following information:
  
- On the next turn, your friend plays their 10 seconds of video first, then you play your 10 seconds of a different video.
+ * Diners: the total number of people who ate at a single meal
+ * Salad bar: the total quantity of salad bar items consumed by mass (in kilograms)
+ * Soup: the total volume of soup consumed by mass (in litres)
+ * Main course: the total mass of main course (hot items) consumed by mass (in kilograms)
+ * Pizza oven: the total mass of items consumed that were made in the pizza oven, by mass (in kilograms)
+ * Date: The date of the meal (e.g.: Thursday, January 18, 2018)
+ * Time frame: The time frame of the meal (e.g.: 11:30 AM to 1:00 PM)
  
- The goal of the game is to guess what kind of video your friend will play first, and pick something for the final 10 seconds that will be a ridiculous and funny mashup.
+ Declare constants for each of these items, **but be sure to choose the appropriate data type in each case**.
  
- For example:
- 
- ![cat-in-the-hat-mad-max](cat-in-the-hat-mad-max.png "Cat in the Hat vs. Mad Max")
- 
- To make things more interesting, each time your friend smiles, giggles, or laughs, an amount of money changes hands.
- 
- Create a variable called `totalMoneyIHaveEarned` with an appropriate data type.
- 
- The game of YouTube Mashup begins:
- 
- 1. You play a 10 second clip from *Grey's Anatomy* and your friend follows this up with a clip from *Mythbusters*. Not a great mashup, and you barely smile, so you only have to pay your friend $0.10. Use a *compound assignment operator* to update `totalMoneyIHaveEarned`.
- 
- 2. You know your friend loves old romance movies, and you're prepared when they play a 10-second clip from *Ghost*, the 1990 movie starring Patrick Swayze and Demi Moore. You follow that up with a 10-second clip from *SpongeBob SquarePants*, and the resulting mashup is both borderline inappropriate and terribly funny. Your friend giggles a lot. They must pay up, and your total money earned increases by $6.75. Use a *compound assignment operator* to update `totalMoneyIHaveEarned`.
- 
- 3. You play a clip from *Star Wars Episode XII: The Force Awakens*, and your friend is embarrassed when she follows this up with a clip from *Star Trek V: The Final Frontier*. Two sci-fi movies that just don't go that well together. No one laughs at all, but to smooth over the awkward moment you generously agree to share half your current earnings your friend. Update `totalMoneyIHaveEarned` using a *compound assignment operator*.
- 
- 4. Finally, your friend plays a clip from *Sesame Street* and you follow this with a clip from *The Fast and The Furious*. Big Bird mashed up with Dwayne "The Rock" Johnson... you bring down the house. No need to share the details of this mashup here, but your friend agrees that you've struck pure  gold. Your total earnings are tripled. Update `totalMoneyIHaveEarned` using a *compound assignment operator*.
+ Then, use `print()` statements to explain why you chose a particular data type for each constant.
  
  
  */
@@ -42,9 +32,9 @@
  
  ### Learning Goals - Programming
  
- * Goal 4
-    * *Knowledge*
-        * I know how to use assignment statements, including compound assignment operators, when appropriate.
+ * Goal 2
+    * *Thinking*
+        * I know when to use different data types (integers, floating point, Boolean, strings, et cetera) and data structures and can explain why it is important to use the correct data type or structure.
  
  [Next](@next)
  */
