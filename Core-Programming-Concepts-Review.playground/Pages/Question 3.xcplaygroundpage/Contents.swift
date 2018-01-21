@@ -25,10 +25,10 @@
  
  ### Learning Goals - Programming
  
- * Goal 2
-    * *Thinking*
-        * I know when to use different data types (integers, floating point, Boolean, strings, et cetera) and data structures and can explain why it is important to use the correct data type or structure.
- 
+ * Goal 4
+    * *Knowledge*
+        * I know how to use assignment statements, including compound assignment operators, when appropriate.
+  
  [Next](@next)
  */
 
